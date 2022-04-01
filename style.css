@@ -1,0 +1,177 @@
+
+
+/* 
+
+Theme Name: E-DUC by Hassan Ndam Njoya 
+Version: 1.0
+Description: Site réalisé en 2h dans le cadre du cours de Gestion de Projet Digital
+Author: Hassan Ndam
+
+
+Couleur Bleue :#1e67b3 
+Couleur Jaune : #ffa800  
+
+
+*/
+
+boby{
+    margin: 0;
+}
+
+::selection{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    background-color: #1e67b3;
+    padding: 1px; 
+}
+
+.fab{
+    color:#ffa800  ;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.btn-outline-success{
+    background-color: black;
+    color:white
+
+}
+
+.btn-primary{
+    color: black;
+    background-color: #ffa800;
+    border-color: transparent;
+
+}
+
+.btn-primary:hover{
+    color:white;
+    background-color: black;
+    opacity: 0.89;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ffa800 ;
+    color: black;
+}
+.nav-pills .nav-link{
+    margin-top:26px ;
+
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color:black;
+    opacity: 0.89;
+}
+
+.py-3 {
+    padding-top: 4rem!important; 
+}
+
+.corps{
+    margin-top: 30px;
+}
+
+.corps .entreprise{
+    background-color: #1e67b3 ;
+    margin: 0 50px;
+    height:500px;
+}
+
+.corps .pedagogie{
+    background-color: #076316 ;
+    margin: 0 50px;
+    height:500px;
+}
+
+.corps .formation{
+    background-color: #e1f810 ;
+    margin: 0 50px;
+    height:500px;
+}
+
+.material-icons{
+    font-size: 200px;
+    padding: 50PX;
+}
+
+.pedagogie .bas{
+color: white;
+margin-left: 50px;
+}
+
+.pedagogie .btn{
+    margin-left: 40px;
+}
+
+.pedagogie .bas{
+    font-size:120px;
+
+}
+
+
+.formons{
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.bienvenue{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.text-center{
+    font-size: 170px;
+}
+
+.point{
+    color: #076316;
+}
+
+.meilleur{
+    color: #ffa800;
+}
+
+.interet{
+    text-align: center;
+}
+
+.interet .btn{
+    color: rgb(2, 0, 0);
+    background-color:#ffa800;
+    margin-top: 40px;
+    border-color: white;
+}
+
+.interet .btn :hover{
+    color: white;
+}
+
+footer{
+    margin-top: 150px;
+    background-color:#1e67b3;
+}
+
+
+.divider{
+    height: 1;
+    opacity: 0.05;
+    color: inherit;
+    margin-bottom: 50px;
+    color: beige;
+}
+
+ .copywrights{
+    color: beige;
+    opacity: 0.2;
+    text-align: center;
+}
